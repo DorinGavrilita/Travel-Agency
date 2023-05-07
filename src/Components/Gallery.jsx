@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Carousel, Form } from 'react-bootstrap';
+import { Container, Row, Carousel } from 'react-bootstrap';
 import img1 from '../images/1.jpg';
 import img2 from '../images/2.jpg';
 import img3 from '../images/3.jpg';
