@@ -4,6 +4,7 @@ import { HelpTravels } from './Components/HelpTravels';
 import { Gallery } from './Components/Gallery';
 import { Contact } from './Components/Contact';
 import { Tours } from './Components/Tours';
+import { TourCards } from './Components/TourCards';
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <Gallery />
       <Contact />
       <Tours />
+      <TourCards />
     </>
   )
 }

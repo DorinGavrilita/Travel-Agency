@@ -208,7 +208,8 @@ header::after {
   background-position: center;
 }
 
-.tours {
+.tours,
+.tour-cards {
   padding: 5%;
 }
 
@@ -238,4 +239,36 @@ header::after {
 
 .tours-text h1 {
   font-size: 50px;
+}
+
+.tour-cards {
+  background-color: #2c9bcc;
+}
+
+.tour-cards h1 {
+  font-size: 75px;
+}
+
+.card-title {
+  letter-spacing: 3px;
+}
+
+.card-price {
+  margin-top: -8px;
+  color: #2c9bcc;
+}
+
+.card-btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #2c9bcc;
+  border: none;
+}
+
+.card-btn:hover {
+  background-color: #288bb8
+}
+
+.tour-card {
+  border-radius: 20px;
 }
