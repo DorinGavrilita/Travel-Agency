@@ -7,6 +7,7 @@ import { Tours } from './Components/Tours';
 import { TourCards } from './Components/TourCards';
 import { BeachHoliday } from './Components/BeachHoliday';
 import { Offers } from './Components/Offers';
+import { ContactInfo } from './Components/ContactInfo';
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
       <TourCards />
       <BeachHoliday />
       <Offers />
+      <ContactInfo />
     </>
   )
 }
