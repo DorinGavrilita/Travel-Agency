@@ -6,8 +6,8 @@ export const Offers = () => {
     <div className='offers'>
       <Container>
         <Row className='mx-5'>
-          <h1 className='text-center text-white fw-bold mb-5'>Your brain needs a break</h1>
-          <Col sm={4} className='d-flex flex-column align-items-center'>
+          <h1 className='text-center text-white fw-bold mb-5' data-aos='fade-right'>Your brain needs a break</h1>
+          <Col sm={4} className='d-flex flex-column align-items-center' data-aos='zoom-in'>
             <div className="offer-card bg-white">
               <div className="offer-card-img1 offer-img mb-4" />
               <div className="offer-card-text">
@@ -17,7 +17,7 @@ export const Offers = () => {
               </div>
             </div>
           </Col>
-          <Col sm={4} className='d-flex flex-column align-items-center'>
+          <Col sm={4} className='d-flex flex-column align-items-center' data-aos='zoom-in'>
             <div className="offer-card bg-white">
               <div className="offer-card-img2 offer-img mb-4" />
               <div className="offer-card-text">
@@ -27,7 +27,7 @@ export const Offers = () => {
               </div>
             </div>
           </Col>
-          <Col sm={4} className='d-flex flex-column align-items-center'>
+          <Col sm={4} className='d-flex flex-column align-items-center' data-aos='zoom-in'>
             <div className="offer-card bg-white">
               <div className="offer-card-img3 offer-img mb-4" />
               <div className="offer-card-text">

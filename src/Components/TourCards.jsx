@@ -7,8 +7,8 @@ export const TourCards = () => {
     <div className="tour-cards">
       <Container>
         <Row>
-          <h1 className='text-center text-white fw-bold mb-5'>Active Tours</h1>
-          <Col sm={4} className='mb-5'>
+          <h1 className='text-center text-white fw-bold mb-5' data-aos='fade-top'>Active Tours</h1>
+          <Col sm={4} className='mb-5' data-aos='flip-left'>
             <Card className='position-relative tour-card' style={{ width: '22rem' }}>
               <Card.Img className='pe-3 ps-3 pt-3' variant="top" src={testImg} />
               <Card.Body>
@@ -25,7 +25,7 @@ export const TourCards = () => {
             </Card>
           </Col>
 
-          <Col sm={4} className='mb-5'>
+          <Col sm={4} className='mb-5' data-aos='flip-left'>
             <Card className='position-relative tour-card' style={{ width: '22rem' }}>
               <Card.Img className='pe-3 ps-3 pt-3' variant="top" src={testImg} />
               <Card.Body>
@@ -42,7 +42,7 @@ export const TourCards = () => {
             </Card>
           </Col>
 
-          <Col sm={4} className='mb-5'>
+          <Col sm={4} className='mb-5' data-aos='flip-left'>
             <Card className='position-relative tour-card' style={{ width: '22rem' }}>
               <Card.Img className='pe-3 ps-3 pt-3' variant="top" src={testImg} />
               <Card.Body>
@@ -59,7 +59,7 @@ export const TourCards = () => {
             </Card>
           </Col>
 
-          <Col sm={4} className='mb-5'>
+          <Col sm={4} className='mb-5' data-aos='flip-left'>
             <Card className='position-relative tour-card' style={{ width: '22rem' }}>
               <Card.Img className='pe-3 ps-3 pt-3' variant="top" src={testImg} />
               <Card.Body>
@@ -76,7 +76,7 @@ export const TourCards = () => {
             </Card>
           </Col>
 
-          <Col sm={4} className='mb-5'>
+          <Col sm={4} className='mb-5' data-aos='flip-left'>
             <Card className='position-relative tour-card' style={{ width: '22rem' }}>
               <Card.Img className='pe-3 ps-3 pt-3' variant="top" src={testImg} />
               <Card.Body>
@@ -93,7 +93,7 @@ export const TourCards = () => {
             </Card>
           </Col>
 
-          <Col sm={4} className='mb-5'>
+          <Col sm={4} className='mb-5' data-aos='flip-left'>
             <Card className='position-relative tour-card' style={{ width: '22rem' }}>
               <Card.Img className='pe-3 ps-3 pt-3' variant="top" src={testImg} />
               <Card.Body>

@@ -12,9 +12,9 @@ export const Gallery = () => {
     <div className='gallery'>
       <Container>
         <Row className='d-flex justify-content-center'>
-          <h1 className='text-center fw-bold mb-5'>Summer travel is returning</h1>
+          <h1 className='text-center fw-bold mb-5' data-aos='fade-right'>Summer travel is returning</h1>
           <div className="carousel">
-            <Carousel variant="dark">
+            <Carousel variant="dark" data-aos='fade-top'>
               <Carousel.Item>
                 <img
                   className="d-block w-100 carousel-img"
@@ -58,7 +58,7 @@ export const Gallery = () => {
                 />
               </Carousel.Item>
             </Carousel>
-            <div className='button-container d-flex justify-content-center'>
+            <div className='button-container d-flex justify-content-center' data-aos='fade-top'>
               <button className="learn-more-button">Learn More</button>
             </div>
           </div>

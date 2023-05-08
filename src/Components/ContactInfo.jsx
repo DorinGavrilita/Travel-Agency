@@ -5,10 +5,10 @@ export const ContactInfo = () => {
   return (
     <div className="contact-info">
       <Container className='position-relative'>
-        <div className="fill-circle position-relative" />
-        <div className="circle-blue position-absolute" />
-        <Row className='contact-info-container mx-auto'>
-          <Col sm={5}>
+        <div className="fill-circle position-relative" data-aos='fade-top' />
+        <div className="circle-blue position-absolute" data-aos='fade-top' />
+        <Row className='contact-info-container mx-auto' data-aos='fade-top'>
+          <Col sm={5} data-aos='fade-right'>
             <h2 className='fw-bold mb-5'>Contact Info</h2>
 
             <div className="d-flex align-items-center mb-4">
@@ -41,7 +41,7 @@ export const ContactInfo = () => {
               </div>
             </div>
           </Col>
-          <Col sm={7}>
+          <Col sm={7} data-aos='fade-left'>
             <Form>
               <Row className='mb-4'>
                 <input type="text" className='contact-input' placeholder='Enter your name' />

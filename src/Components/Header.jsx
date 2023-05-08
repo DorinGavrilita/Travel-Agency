@@ -7,9 +7,9 @@ export const Header = () => {
       <Container>
         <Row className='mx-5 figures w-100'>
           <figure className='w-100 d-flex justify-content-end'>
-            <div className="circle" />
+            <div className="circle" data-aos='zoom-in' />
           </figure>
-          <div className="text-container">
+          <div className="text-container" data-aos='fade-right'>
             <h1 className='header-title text-white fw-bold'>Travel Agency</h1>
             <p className='header-text text-white mt-3'>
               Nibh venenatis cras sed felis eget velit aliquet sagittis id. Tellus pellentesque eu tincidunt tortor aliquam nulla.
@@ -17,12 +17,12 @@ export const Header = () => {
             <button className='text-uppercase'>contact us</button>
           </div>
           <figure className='w-100 d-flex justify-content-end'>
-            <div className="header-image1 position-absolute" />
+            <div className="header-image1 position-absolute" data-aos='zoom-in' />
           </figure>
           <figure className='w-100 d-flex justify-content-center'>
-            <div className="header-image2 position-absolute me-5" />
+            <div className="header-image2 position-absolute me-5" data-aos='zoom-in' />
           </figure>
-          <div className="blue-circle position-absolute ms-5" />
+          <div className="blue-circle position-absolute ms-5" data-aos='zoom-in' />
       </Row>
     </Container>
     </header >
