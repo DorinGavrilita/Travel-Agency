@@ -4,6 +4,10 @@
   font-family: roboto;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .figures {
   padding-top: 5%;
   padding-right: 15%;
