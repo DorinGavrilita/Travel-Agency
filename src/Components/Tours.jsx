@@ -15,7 +15,7 @@ export const Tours = () => {
           <div className="tours-text position-absolute">
             <h1 className='text-white text-center fw-bold mt-5' data-aos='zoom-in'>Active Tours</h1>
             <p className='text-center text-white' data-aos='zoom-in'>
-              Sem et tortor consequat id porta. Laoreet sit amet cursus sit amet dictum. Adipiscing elit duis tristique sollicitudin nibh sit.
+              Sem et tortor consequat id porta. Laoreet sit amet cursus sit amet dictum. Adipiscing elit duis tristique sollicitudin nibh sit.fd
             </p>
           </div>
         </Row>
