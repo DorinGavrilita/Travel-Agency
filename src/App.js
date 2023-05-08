@@ -8,6 +8,7 @@ import { TourCards } from './Components/TourCards';
 import { BeachHoliday } from './Components/BeachHoliday';
 import { Offers } from './Components/Offers';
 import { ContactInfo } from './Components/ContactInfo';
+import { Footer } from './Components/Footer';
 
 export const App = () => {
   return (
@@ -21,6 +22,7 @@ export const App = () => {
       <BeachHoliday />
       <Offers />
       <ContactInfo />
+      <Footer />
     </>
   )
 }

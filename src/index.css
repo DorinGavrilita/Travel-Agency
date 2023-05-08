@@ -395,3 +395,8 @@ ion-icon {
 .form-btn:hover {
   background-color: #288bb8;
 }
+
+footer {
+  margin-top: 100px;
+  padding: 3%;
+}
