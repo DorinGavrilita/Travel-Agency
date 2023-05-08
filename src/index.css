@@ -383,6 +383,7 @@ ion-icon {
 
 .textarea {
   height: 105px;
+  resize: none;
 }
 
 .form-btn {
