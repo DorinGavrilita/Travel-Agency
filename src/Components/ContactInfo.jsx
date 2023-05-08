@@ -28,16 +28,16 @@ export const ContactInfo = () => {
 
             <div className="social-icons d-flex">
               <div className='me-3'>
-                <a href=""> <ion-icon size='large' name="logo-facebook" /></a>
+                <a href="#"> <ion-icon size='large' name="logo-facebook" /></a>
               </div>
               <div className='me-3'>
-                <a href=""><ion-icon size='large' name="logo-twitter" /></a>
+                <a href="#"><ion-icon size='large' name="logo-twitter" /></a>
               </div>
               <div className='me-3'>
-                <a href=""><ion-icon size='large' name="logo-instagram" /></a>
+                <a href="#"><ion-icon size='large' name="logo-instagram" /></a>
               </div>
               <div>
-                <a href=""><ion-icon size='large' name="logo-youtube" /></a>
+                <a href="#"><ion-icon size='large' name="logo-youtube" /></a>
               </div>
             </div>
           </Col>
